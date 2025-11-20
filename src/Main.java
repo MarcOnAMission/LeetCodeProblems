@@ -1,4 +1,4 @@
-import LongestPrefix.Solution;
+import FindIndexOfFirstOccurance.Solution;
 
 import java.sql.Array;
 import java.util.List;
@@ -7,6 +7,6 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Solution.longestCommonPrefix();
+        System.out.println(Solution.strStr("saddassad","xxx"));
     }
 }
