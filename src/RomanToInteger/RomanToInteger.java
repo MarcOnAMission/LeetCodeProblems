@@ -1,3 +1,5 @@
+package RomanToInteger;
+
 import java.util.Map;
 
 class RomanToInteger {
