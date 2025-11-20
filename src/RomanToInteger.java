@@ -16,17 +16,16 @@ class RomanToInteger {
         int i = s.length() - 1;
         while (i >= 0) {
             int value = valuesMap.get(s.charAt(i));
-            if(previous==0){
-                date+=value;
-            }else{
-                if(value<previous){
-                    date-=value;
-                }
-                else{
-                    date+=value;
+            if (previous == 0) {
+                date += value;
+            } else {
+                if (value < previous) {
+                    date -= value;
+                } else {
+                    date += value;
                 }
             }
-            previous=value;
+            previous = value;
             i--;
         }
         return date;
